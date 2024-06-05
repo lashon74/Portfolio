@@ -45,26 +45,26 @@ const Skills = () => {
           Web
         </motion.div>
 
-        <Skill name="HTML" x="-20vw" y="2vw" />
-        <Skill name="TFS" x="-10vw" y="2vw" />
-        <Skill name="TortoiseSVN" x="10vw" y="1vw" />
+        <Skill name="TailWind" x="-20vw" y="2vw" />
+        <Skill name="TFS" x="10vw" y="2vw" />
+        {/* <Skill name="TortoiseSVN" x="10vw" y="1vw" /> */}
         <Skill name="JIRA" x="-15vw" y="11vw" />
         <Skill name="CSS" x="-5vw" y="-10vw" />
         <Skill name="JavaScript" x="20vw" y="6vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
-        <Skill name="Reporting" x="0vw" y="20vw" />
+        <Skill name="Reporting" x="-2vw" y="23vw" />
         <Skill name="c#" x="-20vw" y="-16vw" />
         <Skill name="Scrum" x="-20vw" y="-9vw" />
         <Skill name="ASP.Net Core" x="15vw" y="-12vw" />
-        <Skill name="S.O.L.I.D" x="15vw" y="-8vw" />
+        <Skill name="S.O.L.I.D" x="13vw" y="-6vw" />
         <Skill name="Github" x="-35vw" y="-5vw" />
-        <Skill name="Web Design" x="32vw" y="-5vw" />
-        <Skill name="SQL" x="0vw" y="-20vw" />
+        <Skill name="Web Design" x="35vw" y="-3vw" />
+        <Skill name="SQL" x="15vw" y="-20vw" />
         <Skill name="PostMan" x="-5vw" y="-17vw" />
-        <Skill name="JQuery" x="-25vw" y="18vw" />
-        <Skill name="VB .Net" x="-35vw" y="17vw" />
+        <Skill name="JQuery" x="-25vw" y="21vw" />
+        <Skill name="VB .Net" x="-36vw" y="15vw" />
         <Skill name="Bootstrap" x="28vw" y="17vw" />
-        <Skill name="Rest API" x="18vw" y="20vw" />
+        <Skill name="Rest API" x="18vw" y="23vw" />
       </div>
     </>
   );
