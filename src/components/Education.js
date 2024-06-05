@@ -60,6 +60,13 @@ const Education = () => {
             place="Kennesaw State University"
             info="Completed a master's project that required myself and other grauating seniors to create a GitBucket clone full stack application that was written in Angular."
           />
+
+          <Details
+            type="Bachelor of Science in Cyber Security"
+            time="2023-2026"
+            place="Western Governors University"
+            info="Currently taking courses to complete my degree."
+          />
         </ul>
       </div>
     </div>
