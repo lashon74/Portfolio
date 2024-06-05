@@ -9,7 +9,7 @@ const NotFound = () => {
   return (
     <>
       <Head>
-        <title>My Apologies this page doesn't exist | 404 Page </title>
+        <title>My Apologies this page does not exist | 404 Page </title>
         <meta name="description" content="" />
       </Head>
       <TransitionEffect />
