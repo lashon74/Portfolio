@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Lashon Codes</title>
+        <title>The Lashon Hudson</title>
         <meta name="description" content="" />
       </Head>
 
