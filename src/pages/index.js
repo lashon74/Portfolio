@@ -69,7 +69,8 @@ export default function Home() {
                   Contact
                 </Link>
                 <h1 className="ml-4">
-                  <PhoneCallbackIcon /> (912)-604-7859
+                  <PhoneCallbackIcon />
+                  <a href="tel:912-604-7859">(912)-604-7859</a>
                 </h1>
               </div>
             </div>
