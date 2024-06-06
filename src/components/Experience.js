@@ -106,6 +106,7 @@ const Experience = () => {
             time="2017-Present"
             address="Savannah, GA."
             bullet1="- Develop interactive websites and landing pages for local businesses that enhance traffic, page views, and user experience resulting in the client receiving more revenue."
+            bullet2="- Developed new user-facing features using React.js, which improved application performance by 25% and facilitated an engaging user experience."
           />
         </ul>
       </div>
