@@ -77,7 +77,7 @@ const Experience = () => {
             position="Software Engineer II"
             company="Integrisource"
             companyLink="https://integrisource.net/"
-            time="2023-Present"
+            time="2023 - Present"
             address="Remote, USA"
             bullet1="- Implemented security protocols for applications, resulting in a 40% reduction in security breaches and an overall improvement in customer trust and satisfaction."
             bullet2="- Designed and developed a scalable .NET application using C#, ASP.NET, and MVC, resulting in a 40% increase in system efficiency and a 20% reduction in operational costs."
@@ -103,10 +103,13 @@ const Experience = () => {
             position="Freelance Software Developer"
             company="Hudson Web Design & Consulting"
             companyLink="#"
-            time="2017-Present"
+            time="2017 - Present"
             address="Savannah, GA."
             bullet1="- Develop interactive websites and landing pages for local businesses that enhance traffic, page views, and user experience resulting in the client receiving more revenue."
             bullet2="- Developed new user-facing features using React.js, which improved application performance by 25% and facilitated an engaging user experience."
+            bullet3="- Consult clients on which technoligies to help build their business along with troubleshooting issues they currently have with equipment or software such as: peripherals, laptops/desktop issues, and any issues with websites they currently are running or those that I have created for them."
+            bullet4="- Manage Microsoft SQL Servers, enhance database performance, ensure technical and functional designs meet business requirements."
+            bullet5="- Create, maintain, and update applications that are used to generate reports and provide metrics and financial requirements for small businesses."
           />
         </ul>
       </div>
