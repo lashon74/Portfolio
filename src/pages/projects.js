@@ -175,7 +175,7 @@ export default function Projects() {
               <FeaturedProject
                 type="Featured Project"
                 title="Fianace Tracker"
-                summary="A fianace tracker website using React JS, Next.js, PostgreSQL, Tailwind, Drizzle, Hono, and Plaid. It has smooth page transitions, cool background effects, unique design and it is mobile responsive. You can connect a bank account to the application and see transactions that you have made within a certain time frame that the user enters and multiple charts are available so the user can visualize the data."
+                summary="A finance tracker website using React JS, Next.js, PostgreSQL, Tailwind, Drizzle, Hono, and Plaid. It has smooth page transitions, cool background effects, unique design and it is mobile responsive. You can connect a bank account to the application and see transactions that you have made within a certain time frame that the user enters and multiple charts are available so the user can visualize the data."
                 img={proj1}
                 link="https://finance-tracker-peach-eta.vercel.app/"
                 github="https://github.com/lashon74/finance-tracker"
