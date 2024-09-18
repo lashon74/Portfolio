@@ -14,6 +14,7 @@ const Details = ({
   bullet4,
   bullet5,
   bullet6,
+  bullet7,
 }) => {
   const ref = useRef(null);
   return (
@@ -47,6 +48,7 @@ const Details = ({
           <li className="font-medium w-full md:text-sm pb-2">{bullet4}</li>
           <li className="font-medium w-full md:text-sm pb-2">{bullet5}</li>
           <li className="font-medium w-full md:text-sm pb-2">{bullet6}</li>
+          <li className="font-medium w-full md:text-sm pb-2">{bullet7}</li>
         </ul>
         {/* <p className="font-medium w-full md:text-sm"> ● {bullet1}</p> */}
       </motion.div>
@@ -88,6 +90,7 @@ const Experience = () => {
             bullet5="- Implement business logic in C#.NET, business intelligence/ETL solutions, and business rules to integrate disparate data sources toward a centralized data store."
             bullet6="- Used Kendo UI and the .Net Framework to build out functional components that can be reused in multiple projects
                       solidifying a standard within the source code."
+            bullet7="- Helped maintain and update within assigned projects and create reports requested by Business Analysis using Active Reports."
           />
 
           <Details
@@ -103,6 +106,9 @@ const Experience = () => {
             bullet5="- Debugged and troubleshot code, resulting in a 30% reduction in production issues and a 20% increase in customer satisfaction."
             bullet6="- Helped with the development of an architectural pattern to follow to help aid in the conversion of Microsoft WinForms
                         applications into web-based Blazer pages."
+            bullet7="- Created and maintained reports that are built in an in-house quality control system, along with ad hoc reports that
+                        management needs to track specific metrics using multiple reporting technologies including Crystal reports, Power BI, and
+                        SSRS."
           />
 
           <Details
