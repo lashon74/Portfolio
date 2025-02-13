@@ -181,7 +181,7 @@ export default function Projects() {
                 github="https://github.com/lashon74/finance-tracker"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Music player"
                 title="React Music Player"
@@ -189,7 +189,7 @@ export default function Projects() {
                 link="https://amazing-feynman-e681a4.netlify.app/"
                 github="https://github.com/lashon74/React-player"
               />
-            </div>
+            </div> */}
             {/*
             <div className="col-span-6 sm:col-span-12">
               <Project

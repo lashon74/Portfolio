@@ -39,10 +39,16 @@ export default function Home() {
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-                A skilled full-stack developer, I am dedicated to turning ideas
-                into innovative web applications. Explore my latest projects,
-                showcasing my expertise in React.js, ASP.Net Core, Angular, and
-                web development.
+                Detail-oriented Software Developer with 7 years of experience
+                across the Software Development Life Cycle, excelling in
+                requirement analysis, design, development, and deployment.
+                Proven track record in designing SQL Server databases and
+                crafting efficient Stored Procedures, Functions, and Triggers
+                using T-SQL. Skilled in developing desktop and web applications
+                utilizing Agile SCRUM, Waterfall, and Test-Driven Development
+                methodologies with technologies including React, .NET Core MVC,
+                and Blazer. Actively expanding knowledge in AWS, Azure, and
+                other DevOps platforms to enhance operational efficiency.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
