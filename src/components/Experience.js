@@ -78,19 +78,32 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Software Developer"
+            company="Hudson Web Design & Consulting"
+            companyLink="#"
+            time="2017 - Present"
+            address="Savannah, GA."
+            bullet1="- Enhanced online presence of local businesses through interactive web designs, generating higher earnings."
+            bullet2="- Constructed innovative frontend features utilizing React.js, resulting in 25% improved performance."
+            bullet3="- Supported client success by addressing equipment problems and optimizing web solutions for improved performance."
+            bullet4="- Maintain Microsoft SQL Servers, boost database functionality, and confirm technical designs fulfill business objectives."
+            bullet5="- Supported small businesses by maintaining effective reporting tools."
+            bullet6="- Consulted small business on ways to increases foot traffic and online presence which motivated the owners to adopt new business models."
+            bullet7="- Increased user engagement by 20% on a client platform by enhancing front-end UX with React.js."
+          />
+          <Details
             position="Software Engineer II"
             company="Integrisource"
             companyLink="https://integrisource.net/"
-            time="2023 - Present"
+            time="2023 - 2024"
             address="Remote, USA"
-            bullet1="- Implemented security protocols for applications, resulting in a 40% reduction in security breaches and an overall improvement in customer trust and satisfaction."
-            bullet2="- Designed and developed a scalable .NET application using C#, ASP.NET, and MVC, resulting in a 40% increase in system efficiency and a 20% reduction in operational costs."
-            bullet3="- Converting a local client-based school board system to a data-centric web applications using ASP.NET, C#.NET, and Services with Agile/SCRUM methodology that the Michigan Wayne County school board will adopt."
-            bullet4="- Work closely with business analysis to optimize data driven web applications that will be used across multiple school districts, test changes made on client and server side to improve speed and efficiency."
-            bullet5="- Implement business logic in C#.NET, business intelligence/ETL solutions, and business rules to integrate disparate data sources toward a centralized data store."
-            bullet6="- Used Kendo UI and the .Net Framework to build out functional components that can be reused in multiple projects
-                      solidifying a standard within the source code."
-            bullet7="- Helped maintain and update within assigned projects and create reports requested by Business Analysis using Active Reports."
+            bullet1="- Enhanced application safety protocols, leading to a 40% decrease in breaches."
+            bullet2="- Engineered a robust .NET Core application leveraging C#, ASP.NET Core, and T-SQL to enhance system efficiency by 40%."
+            bullet3="- Converted local client-based school board system to a data-centric web application using ASP.NET Core and C#.NET."
+            bullet4="- Tested and refined functionalities for improved performance of web applications in multiple school settings."
+            bullet5="- Developed reusable components using Kendo UI and .NET Framework for multi-project applicability while implemented business logic using C# .NET Core to consolidate data from multiple sources."
+            bullet6="- Developed customized reports requested by Business Analysis using Active Reports."
+            bullet7="- Boosted application efficiency by 25% by streamlining database queries using Dapper and Entity Framework."
           />
 
           <Details
@@ -99,29 +112,13 @@ const Experience = () => {
             companyLink="https://www.pccairfoils.com/business-units/douglas/"
             time="2021 - 2023"
             address="Douglas, GA."
-            bullet1="- Converted legacy applications written in VB6 to C# .NET and enhanced Stored Procedures, Triggers, and Tables which increased productivity by 150% resulting in a 20% reduction in operation costs."
-            bullet2="- Developed and maintained databases and procedures using SQL Server, resulting in a 30% increase in system reliability and a 15% reduction in data-related issues."
-            bullet3="- Collaborated with other developers and stakeholders to create and maintain unit tests for applications, resulting in a 25% reduction in bug-related delays and an overall improvement in code quality."
-            bullet4="- Set up and maintained a relational database system for storage, retrieval, and manipulation of data, leading to improved data accessibility."
-            bullet5="- Debugged and troubleshot code, resulting in a 30% reduction in production issues and a 20% increase in customer satisfaction."
-            bullet6="- Helped with the development of an architectural pattern to follow to help aid in the conversion of Microsoft WinForms
-                        applications into web-based Blazer pages."
-            bullet7="- Created and maintained reports that are built in an in-house quality control system, along with ad hoc reports that
-                        management needs to track specific metrics using multiple reporting technologies including Crystal reports, Power BI, and
-                        SSRS."
-          />
-
-          <Details
-            position="Freelance Software Developer"
-            company="Hudson Web Design & Consulting"
-            companyLink="#"
-            time="2017 - Present"
-            address="Savannah, GA."
-            bullet1="- Develop interactive websites and landing pages for local businesses that enhance traffic, page views, and user experience resulting in the client receiving more revenue."
-            bullet2="- Developed new user-facing features using React.js, which improved application performance by 25% and facilitated an engaging user experience."
-            bullet3="- Consult clients on which technoligies to help build their business along with troubleshooting issues they currently have with equipment or software such as: peripherals, laptops/desktop issues, and any issues with websites they currently are running or those that I have created for them."
-            bullet4="- Manage Microsoft SQL Servers, enhance database performance, ensure technical and functional designs meet business requirements."
-            bullet5="- Create, maintain, and update applications that are used to generate reports and provide metrics and financial requirements for small businesses."
+            bullet1="- Integrated system upgrades that increased productivity by 50% and reduced operation costs by 20%."
+            bullet2="- Achieved a 15% reduction in data-related issues via proficient procedural management on SQL Server."
+            bullet3="- Developed and maintained unit tests in collaboration with developers and stakeholders, reducing bug-related delays by 25%."
+            bullet4="- Conducted and managed a relational database system to enhance data storage, retrieval, and manipulation."
+            bullet5="- Troubleshoot code issues to cut production problems by 30%."
+            bullet6="- Contributed in creating an architectural pattern which increased system efficiency by 25%, resulting in $75k in cost savings."
+            bullet7="- Developed ad hoc reports for management to monitor specific metrics using Crystal Reports, Power BI, SSRS."
           />
         </ul>
       </div>
