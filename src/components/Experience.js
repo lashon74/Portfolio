@@ -82,7 +82,7 @@ const Experience = () => {
             company="Hudson Web Design & Consulting"
             companyLink="#"
             time="2017 - Present"
-            address="Savannah, GA."
+            address="Savannah, GA..."
             bullet1="- Enhanced online presence of local businesses through interactive web designs, generating higher earnings."
             bullet2="- Constructed innovative frontend features utilizing React.js, resulting in 25% improved performance."
             bullet3="- Supported client success by addressing equipment problems and optimizing web solutions for improved performance."
