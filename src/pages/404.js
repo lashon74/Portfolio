@@ -1,5 +1,8 @@
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
+import SideNav from "@/components/SideNav";
+import ContactModal from "@/components/ContactModal";
+import { useState } from "react";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
 import Link from "next/link";

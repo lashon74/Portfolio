@@ -8,6 +8,9 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/bill-spread.png";
 import proj2 from "../../public/images/projects/react-player.png";
 import TransitionEffect from "@/components/TransitionEffect";
+import proj3 from "../../public/images/projects/bill-spread.png";
+import proj4 from "../../public/images/projects/bill-spread.png";
+import proj5 from "../../public/images/projects/bill-spread.png";
 
 const FramerImage = motion(Image);
 
