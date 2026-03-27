@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/logo.JPG";
+import profile from "../../public/images/profile/logo.jpg";
 import { useInView, useMotionValue, useSpring, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import Skills from "@/components/Skills";
