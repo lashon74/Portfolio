@@ -32,13 +32,18 @@ const ContactModal = ({ isOpen, onClose }) => {
     "Content Writing",
     "Not sure yet — let's talk",
   ];
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError("");
+
+    console.log("Service ID:", SERVICE_ID);
+    console.log("Template ID:", TEMPLATE_ID);
+    console.log("Public Key:", PUBLIC_KEY);
+    console.log("Form data:", form);
+
     try {
-      await emailjs.send(
+      const result = await emailjs.send(
         SERVICE_ID,
         TEMPLATE_ID,
         {
@@ -50,6 +55,8 @@ const ContactModal = ({ isOpen, onClose }) => {
         },
         PUBLIC_KEY,
       );
+
+      console.log("EmailJS result:", result);
       setSubmitted(true);
       setTimeout(() => {
         setSubmitted(false);
@@ -57,11 +64,41 @@ const ContactModal = ({ isOpen, onClose }) => {
         onClose();
       }, 3000);
     } catch (err) {
+      console.log("EmailJS error:", err);
       setError("Something went wrong. Please try again or call directly.");
     } finally {
       setLoading(false);
     }
   };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   setError("");
+  //   try {
+  //     await emailjs.send(
+  //       SERVICE_ID,
+  //       TEMPLATE_ID,
+  //       {
+  //         from_name: form.name,
+  //         from_email: form.email,
+  //         phone: form.phone,
+  //         service: form.service,
+  //         message: form.message,
+  //       },
+  //       PUBLIC_KEY,
+  //     );
+  //     setSubmitted(true);
+  //     setTimeout(() => {
+  //       setSubmitted(false);
+  //       setForm({ name: "", email: "", phone: "", service: "", message: "" });
+  //       onClose();
+  //     }, 3000);
+  //   } catch (err) {
+  //     setError("Something went wrong. Please try again or call directly.");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   const inputStyle = {
     width: "100%",

@@ -6,7 +6,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import proj1 from "../../public/images/projects/bill-spread.png";
-import proj2 from "../../public/images/projects/react-player.png";
+import proj2 from "../../public/images/projects/devdesk.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import proj3 from "../../public/images/projects/bill-spread.png";
 import proj4 from "../../public/images/projects/bill-spread.png";
@@ -184,57 +184,16 @@ export default function Projects() {
                 github="https://github.com/lashon74/finance-tracker"
               />
             </div>
-            {/* <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Music player"
-                title="React Music Player"
-                img={proj2}
-                link="https://amazing-feynman-e681a4.netlify.app/"
-                github="https://github.com/lashon74/React-player"
-              />
-            </div> */}
-            {/*
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Website"
-                title="Fashion Studio Website"
-                img={proj3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
-              />
-            </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
-                img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                type="Featured Project"
+                title="DevDesk"
+                summary="A full-stack project management and client consultation portal built with Next.js 14, Supabase, Clerk auth, and Resend email. Features include a 10-step guided consultation flow with live CSS theming, project and client management, todo tracking, API endpoint monitoring, dark mode, and automated styled email delivery. Built for real freelance workflow management."
+                img={proj2}
+                link="https://dev-desk-ruby.vercel.app"
+                github="https://github.com/lashon74/DevDesk"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Website Template"
-                img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Blog Website"
-                img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
-              />
-            </div> */}
-
-            {/* <div className="col-span-12 text-center">
-              <button>Submit</button>
-            </div> */}
           </div>
         </Layout>
       </main>
