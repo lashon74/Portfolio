@@ -113,7 +113,17 @@ export default function Home() {
                 >
                   Get a Free Quote
                 </button>
-
+                <Link
+                  href="https://dev-desk-ruby.vercel.app/intake"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center rounded-lg border-2 border-solid border-primary p-2.5 px-6 text-lg font-semibold
+    capitalize text-primary hover:bg-primary hover:text-light
+    dark:border-primaryDark dark:text-primaryDark dark:hover:bg-primaryDark dark:hover:text-dark
+    md:p-2 md:px-4 md:text-base transition-all duration-200"
+                >
+                  Start a Project <LinkArrow className="ml-1 !w-6 md:!w-4" />
+                </Link>
                 <Link
                   href="/LashonHudson.pdf"
                   target="_blank"
